@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Conf label killer",
+  "version": "1.5.0",
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/*", "https://drive.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
