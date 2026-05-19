@@ -2,9 +2,9 @@
   "use strict";
 
   const TARGET_TEXTS = [
-    'Confidencialidade" label was applied to this file automatically',
-    'Confidentiality" label was applied to this file automatically',
-    "label was applied to this file automatically",
+    'Confidencialidade" label was applied to this file',
+    'Confidentiality" label was applied to this file',
+    "label was applied to this file",
   ].map((s) => s.toLowerCase());
 
   const textMatches = (el) => {
